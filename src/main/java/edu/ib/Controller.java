@@ -32,8 +32,8 @@ public class Controller {
     @FXML
     void initialize() {
         System.out.println("plany planiki motywy motywiki");
-//        Image  image = new Image("fxml/cards/aceofclubs.png");
-//        ImageView imageView = new ImageView(image);
+        Image  image = new Image("fxml/cards/aceofclubs.png");
+        ImageView imageView = new ImageView(image);
 
         jebaclegie.setImage(image);
         jebaclegie.onMouseClickedProperty();
